@@ -5,9 +5,9 @@ import time
 # configurações
 # muda os dados de acordo com quem ira utilzar
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="localhost3",
   user="root",
-  password="root",
+  #password="",
   database="chicago"
 )
 
